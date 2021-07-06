@@ -1,5 +1,5 @@
 # Chat with login
-This app utilizes a MERN stack (MongoDB, Express, ReactJS, NodeJS) and other technologies, like WebSockets, JSON Web Token, Bcrypt, Axios and Redux. It allows the users to signin to a chat page like Slack.
+This app utilizes a MERN stack (MongoDB, Express, ReactJS, NodeJS) and other technologies, like WebSockets, JSON Web Token, Bcrypt, Axios and Redux. It allows users to sign in to a chat page with multiple chanels.
 
 ## How to use?
 You need to add 'backend/configs/.env' file to run the project. The content of this file looks like:
