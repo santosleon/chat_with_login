@@ -33,7 +33,7 @@ app.ws('/chat', (ws) => {
 });
 
 var corsOptions = {
-	origin: "http://localhost:8081",
+	origin: "http://localhost:3000",
 	methods: ['GET', 'PUT', 'POST', 'DELETE', 'OPTIONS', 'PATCH'],
 	allowedHeaders: ['Origin', 'X-Requested-With', 'Content-Type', 'Accept', 'Authorization'],
 	credentials: true,

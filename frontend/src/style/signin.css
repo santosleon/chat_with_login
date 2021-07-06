@@ -1,0 +1,30 @@
+.blue-gradient {
+	background: linear-gradient(45deg, rgba(9,9,121,0.8) 0%, rgba(101,0,201,0.8) 50%, rgba(0,212,255,0.8) 100%);
+  flex: auto;
+	min-height: 100vh;
+}
+
+#signinCard {
+	min-width: 320px;
+	box-shadow: -1px 9px 17px 0px rgba(0,0,0,0.3);
+	border-radius: 12px;
+	font-weight: 500;
+	color: rgb(60, 128, 255);
+}
+
+#signinTitle {
+	color: white;
+}
+
+.signinLink {
+	font-weight: 400 !important;
+	font-size: 11pt !important;
+	padding: 0px  !important;
+	text-decoration: none !important;
+}
+
+.validation {
+	font-weight: 400 !important;
+	font-size: 10pt !important;
+	color: red;
+}

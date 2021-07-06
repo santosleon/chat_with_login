@@ -1,0 +1,75 @@
+.home-navbar {
+	background-color: rgb(0, 89, 255);
+	box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
+}
+
+#user-dropdown, #notification-dropdown {
+	right: 0!important;
+	left: auto!important;
+}
+
+#user-button::after, #notification-button::after {
+	display:none;
+}
+
+#user-button, #notification-button,
+#user-button:focus, #notification-button:focus {
+	background-color: white !important;
+	box-shadow:none !important;
+	padding: 6px 9px !important;
+	margin-left: 6px;
+	border-width: 1px;
+}
+
+#notification-icon, #user-icon {
+	fill: rgb(65, 132, 255);
+	width: 21px;
+}
+
+#search-icon {
+	fill: rgb(65, 132, 255);
+	width: 21px;
+}
+
+#search-form {
+	height: 40px;
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+#search-button, #search-button:focus {
+	min-width: 40px;
+	padding: 0px 6px;
+	background-color: white !important;
+	border-radius: 0px;
+	border: none !important;
+	box-shadow:none !important;
+}
+
+#search-input, #search-input:focus {
+	border-radius: 0px;
+	border: none !important;
+	box-shadow:none !important;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+
+#search-input{
+	padding: 0px;
+	width: 0px;
+}
+
+.search-input-expand {
+	padding: 6px 6px 6px 12px !important;
+	width: 200px !important;
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; 
+}
+
+.delete-account, .delete-account:hover {
+	color: red;
+}
